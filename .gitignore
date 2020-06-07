@@ -1,0 +1,15 @@
+/*.ini
+/**/*.ini
+**/.idea
+#/frontend/frontend/*.log
+*.log
+/aws-config
+/temp
+screenshot*
+page-source*
+\.vscode/
+extend-env.sh
+build_logs.tar.gz
+
+# Mac custom attributes file (Desktop Service Store)
+.DS_Store
