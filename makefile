@@ -5,14 +5,14 @@ JC = javac
 	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-        risingCity.java \
-        City.java \
-        Color.java \
-  	ConstructionService.java \
-        OperationsService.java \
-  	QueueNode.java \
-        RBTNode.java \
-  	Building.java
+        src/risingCity.java \
+        src/City.java \
+        src/Color.java \
+  	src/ConstructionService.java \
+        src/OperationsService.java \
+  	src/QueueNode.java \
+        src/RBTNode.java \
+  	src/Building.java
 
 default: classes
 
